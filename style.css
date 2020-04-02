@@ -1,0 +1,71 @@
+body{
+    background-image: url("images/background.jpg");
+    padding-left: 3%;
+}
+
+h1{
+    
+    margin-left: 1%;
+    padding-top: 2%;
+    text-align: center;
+}
+#h1-header{
+    color:#595959;
+}
+h3{
+    padding-top: 2%;
+    padding-left: 2%;
+}
+#container{
+    padding: 2%;
+}
+
+#buttons-id{
+    padding-top: 1%;
+}
+
+#new-task{
+    opacity: 0.8;
+    border: 1px;
+    border-style: solid;
+}
+
+#list-div{
+    margin-right: 1.5%;
+    margin-left: 1.5%;
+    background-color: white;
+    border-radius: 10px;
+    opacity: 0.8;
+    border: 1px;
+    border-style: solid;
+}
+#task-id{
+    padding-top: 1%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 1%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-style: italic;
+    cursor: pointer;
+   
+    
+}
+
+li{
+    padding-left: 2%;
+}
+
+li:hover{
+    background-color: #8db0f2;
+    color:white;
+    border-radius: 5px;
+}
+
+li:active{
+    background-color: #66ff66;
+}
+
+.counter{
+    padding-left: 2%;
+}
